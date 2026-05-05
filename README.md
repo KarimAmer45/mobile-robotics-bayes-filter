@@ -24,21 +24,21 @@ print("probability:", final_belief.max())
 PY
 ```
 
-## Result screenshots
+## Belief update output
 
 ![mobile-robotics-bayes-filter result screenshot](docs/results/result-screenshot.png)
 
 Posterior belief distribution after the recursive command and sensor update sequence.
 
 
-## What this demonstrates
+## Filtering workflow
 
 - Discrete Bayes filtering with a motion model and binary sensor likelihood.
 - Belief-state propagation over a compact 1D world.
 - Readable probabilistic robotics code that exposes each update step.
 
 
-## Limitations and next steps
+## Validation notes
 
 - The world is one-dimensional and intentionally simplified.
 - The binary sensor model does not capture richer perception ambiguity.
